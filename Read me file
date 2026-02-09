@@ -1,0 +1,21 @@
+# ICMP Traffic Capture & Replay Lab
+
+## Overview
+This repository contains a hands-on lab where ICMP network traffic was captured, analyzed, and replayed using Kali Linux tools. The lab simulates basic SOC (Security Operations Center) workflows, including alert investigation and IDS testing.
+
+## Tools Used
+- Kali Linux
+- Wireshark
+- Tshark
+- packETH
+
+## What We Did
+1. **Network Connectivity Check:** Verified system connectivity using ping.
+2. **ICMP Traffic Capture:** Generated ICMP traffic and captured it with Wireshark.
+3. **File Format Conversion:** Converted PCAPNG files to PCAP format for compatibility with replay tools.
+4. **Packet Replay:** Replayed packets using packETH (single and multiple packet modes).
+5. **IDS Rule Creation:** Created a simple IDS rule to detect ICMP traffic.
+6. **IDS Traffic Simulation:** Simulated IDS traffic using packETH Mode 5 to understand rule-based detection.
+
+## Conclusion
+This lab strengthens foundational knowledge of network security monitoring, packet analysis, and SOC workflows, providing practical exposure to defensive testing and alert validation.
